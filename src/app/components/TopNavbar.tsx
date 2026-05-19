@@ -7,10 +7,10 @@ export default function TopNavbar() {
         Imagix
       </div>
       <div className="hidden md:flex items-center space-x-8">
-        <Link href="#" className="text-zinc-400 hover:text-white transition-colors duration-200">Gallery</Link>
-        <Link href="#" className="text-lime-400 border-b-2 border-lime-400 pb-1 hover:text-white transition-colors duration-200">Create</Link>
-        <Link href="#" className="text-zinc-400 hover:text-white transition-colors duration-200">Community</Link>
-        <Link href="#" className="text-zinc-400 hover:text-white transition-colors duration-200">Pricing</Link>
+        <Link href="/gallery" className="text-zinc-400 hover:text-white transition-colors duration-200">Gallery</Link>
+        <Link href="/create" className="text-lime-400 border-b-2 border-lime-400 pb-1 hover:text-white transition-colors duration-200">Create</Link>
+        <Link href="/community" className="text-zinc-400 hover:text-white transition-colors duration-200">Community</Link>
+        <Link href="/pricing" className="text-zinc-400 hover:text-white transition-colors duration-200">Pricing</Link>
       </div>
       <div className="flex items-center space-x-4">
         <button className="text-zinc-400 text-label-md hover:text-white transition-colors duration-200">
